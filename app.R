@@ -13,7 +13,6 @@ library(shiny)
 library(fabricerin)
 library(shinyalert)
 library(dashboardthemes)
-library(shinyWidgets)
 
 ui <- fluidPage(
   

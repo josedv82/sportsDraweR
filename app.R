@@ -132,7 +132,7 @@ server <- function(input, output, session) {
   output$background1 <- renderUI ({
     
     fabric_curtail(cid = "full_court",
-                   imgsrc = "https://www.dropbox.com/s/i8oblpdb59gopl6/full_court.jpg.png?raw=1",
+                   imgsrc = "https://www.dropbox.com/s/3pandn308gzw6lx/full%20court.png?raw=1",
                    type = "background")
     
     
@@ -165,7 +165,7 @@ server <- function(input, output, session) {
   output$background2 <- renderUI ({
     
     fabric_curtail(cid = "half_court",
-                   imgsrc = "https://www.dropbox.com/s/71xprqxs7b9iypt/half_court.png?raw=1",
+                   imgsrc = "https://www.dropbox.com/s/0v7uy3f7fh6vcna/halfcourt.png?raw=1",
                    type = "background")
     
     
@@ -197,7 +197,7 @@ server <- function(input, output, session) {
   output$background3 <- renderUI ({
     
     fabric_curtail(cid = "full_court2",
-                   imgsrc = "https://www.dropbox.com/s/i8oblpdb59gopl6/full_court.jpg.png?raw=1",
+                   imgsrc = "https://www.dropbox.com/s/3pandn308gzw6lx/full%20court.png?raw=1",
                    type = "background")
     
     
@@ -231,7 +231,7 @@ server <- function(input, output, session) {
   output$background4 <- renderUI ({
     
     fabric_curtail(cid = "half_court2",
-                   imgsrc = "https://www.dropbox.com/s/71xprqxs7b9iypt/half_court.png?raw=1",
+                   imgsrc = "https://www.dropbox.com/s/0v7uy3f7fh6vcna/halfcourt.png?raw=1",
                    type = "background")
     
     
